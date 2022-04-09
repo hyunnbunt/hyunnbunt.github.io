@@ -19,8 +19,26 @@
     </head>
     <body>
         <form>
-            <p style="padding:100px">Hi, this is Hyunnbunt's website!</p>
+            <div>
+                <input type="text" name="greeting" placeholder="Hi!" style="padding:10px">
+                <input type="password" name="pwd" placeholder="password?" style="color:aqua">
+                <input type="submit">
+            </div>  
         </form>
+            <div>
+                <input list="color" name="color" placeholder="Favorite Color?">
+                <datalist id="color">
+                    <option value="red"></option>
+                    <option value="yellow"></option>
+                    <option value="aquamarine"></option>
+                </datalist>
+            </div>
+            <div>
+                Favorite coffee menu?
+                <input name="menu" type="radio" value="red"> Americano
+                <input name="menu" type="radio" value="brown"> Cafe Latte
+                <input name="menu" type="radio" value="light brown"> Caramel Machiatto
+            </div>
         <h1 style="color:blueviolet; padding:50px;">Welcome!</h1>
     </body>
 </html>
